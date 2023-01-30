@@ -14,7 +14,7 @@ public class WelcomeController {
 	@GetMapping("/welcomeMsg")
 	public ModelAndView welcomeMsg() {
 		
-		String msg="Welcome to BikkadIT : Pune";
+		String msg="Welcome to BikkadIT, Pune";
 		
 		ModelAndView mav=new ModelAndView();
 		mav.addObject("MESSAGE", msg);
